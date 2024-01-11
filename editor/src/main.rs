@@ -8,7 +8,7 @@ fn main() {
         ..Default::default()
     };
 
-    eframe::run_native("Engine name", native_options, Box::new(
+    eframe::run_native("frust", native_options, Box::new(
         |cc| {
             Box::new(editor::App::new(cc))
         }
